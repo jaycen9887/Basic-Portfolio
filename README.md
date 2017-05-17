@@ -1,4 +1,3 @@
 # Basic-Portfolio
 
-# Generic Portfolio
-# UNC Bootcamp May 2017
+UNC Bootcamp May 2017
