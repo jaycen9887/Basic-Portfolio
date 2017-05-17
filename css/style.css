@@ -239,18 +239,9 @@ footer {
 }
 
 .contact footer {
-    background-color: #777;
-    border-top: solid 8px #55AAA5;
     position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    text-align: center;
-    color: #CCC;
-    font-size: 12px;
-    height: 30px;
-    padding-top: 30px
+    bottom: -80px;
+    
 }
 
 /* END contact.html */ 
