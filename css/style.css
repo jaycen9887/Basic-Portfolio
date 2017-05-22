@@ -109,11 +109,11 @@ header {
 footer {
     background-color: #777;
     border-top: solid 8px #55AAA5;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+     position: fixed;
     left: 0;
-    padding: 1rem;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
     text-align: center;
     color: #CCC;
     font-size: 12px;
@@ -238,21 +238,6 @@ footer {
     transform: translateY(4px);
 }
 
-.contact footer {
-    background-color: #777;
-    border-top: solid 8px #55AAA5;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    text-align: center;
-    color: #CCC;
-    font-size: 12px;
-    height: 30px;
-    padding-top: 30px
-}
-
 /* END contact.html */ 
 
 
@@ -301,11 +286,13 @@ footer {
 
 .portfolio #first .project001 img {
     width: 278px;
+    height: 155px;
+    background-color: black;
 }
 
 .portfolio #first .project001 h2 {
     position: absolute;
-    top: 110px;
+    top: 111px;
     width: 100%;
     text-align: center;
     background-color: #4aaaa5;
@@ -382,7 +369,7 @@ footer {
 /* Third */
 
 .portfolio #third .project001 {
-   height: 159px;
+    height: 159px;
     margin-left: 20px;
     float: left;
     border: 2px solid #777;
@@ -394,7 +381,7 @@ footer {
 
 .portfolio #third .project001 h2 {
     position: relative;
-    top: -42px;
+    top: -35px;
     width: 100%;
     text-align: center;
     background-color: #4aaaa5;
@@ -420,13 +407,6 @@ footer {
     text-align: center;
     background-color: #4aaaa5;
     color: white;  
-}
-
-
-.portfolio  footer {
-    position: absolute;
-    top: 100%;
-    margin-top: 30px;
 }
 
 
